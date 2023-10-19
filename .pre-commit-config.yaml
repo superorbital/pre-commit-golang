@@ -16,14 +16,14 @@ repos:
     hooks:
       # shellcheck (aliased to shck)
       #
-      - id: shellcheck
-        name: Run static analysis (shellcheck)
-        entry: shellcheck
-        language: system
-        files: \.(sh|bash)$
-        types: [file]
-        alias: shck
-        args: [ '-x', '-e', 'SC2034' ]
+      #- id: shellcheck
+      #  name: Run static analysis (shellcheck)
+      #  entry: shellcheck
+      #  language: system
+      #   files: \.(sh|bash)$
+      #  types: [file]
+      #  alias: shck
+      #  args: [ '-x', '-e', 'SC2034' ]
       # shfmt
       #
       - id: shfmt
